@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+  <title>Instant PrivateKey Check</title>
+  <style>
+    html {
+      font-family: 'Courier New', Courier, monospace;
+    }
+    label {
+      display: block;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    input[type="text"] {
+      font-family: 'Courier New', Courier, monospace;
+      width: 550px;
+    }
+    output {
+      display: block;
+      word-break: break-all;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    @media (max-width: 550px) {
+      input[type="text"] {
+        width: 90%;
+        font-family: 'Courier New', Courier, monospace;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center>
+  <h1>Instant PrivateKey Check</h1>
+  <div>
+    <label><strong>Enter PrivateKey</strong></label>
+    <br>
+    <input type="text" id="privatekey" value="4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d" placeholder="4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d" />
+  </div>
+  <br>
+  <output id="output"></output>
+  <br>
+  <div id="explorer"></div>
+  <br>
+  <br>
+  <h4>@mrspcbr on GitHub</h4>
+</center>
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
